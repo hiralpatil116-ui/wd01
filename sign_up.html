@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up | CourseHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">
+    <img src="logo.png" height="80" width="80">
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="contact_us.html">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Join CourseHub</h2>
+  <p>Start learning industry-ready skills</p>
+</div>
+
+<div class="page-center">
+  <div class="card">
+
+    <h3>Create Account</h3>
+
+    <form id="signupForm">
+      <label>Full Name</label>
+      <input type="text" id="name" required>
+
+      <label>Email</label>
+      <input type="email" id="email" required>
+
+      <label>Password</label>
+      <input type="password" id="password" required>
+
+      <label>Select Course</label>
+      <select id="course" required>
+        <option value="">Select</option>
+        <option>Web Development</option>
+        <option>Python</option>
+        <option>UI / UX</option>
+      </select>
+
+      <button type="submit">Create Account</button>
+    </form>
+
+    <p class="footer-note">Already have account?
+      <a href="login.html">Login</a>
+    </p>
+
+  </div>
+</div>
+
+<footer class="site-footer">
+  © 2026 CourseHub
+</footer>
+
+<!-- JS FILE -->
+<script src="js/auth.js"></script>
+
+
+</body>
+</html>

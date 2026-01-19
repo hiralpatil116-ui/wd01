@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard | CourseHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">
+    <img src="logo.png" height="80" width="80">
+  </div>
+
+ <nav>
+  <a href="index.html">Home</a>
+  <a href="courses.html">Courses</a>
+  <a href="#" onclick="logout()">Logout</a>
+</nav>
+
+</header>
+
+
+
+
+
+<div class="page-center">
+  <div class="layer">
+    <div class="card">
+      <h3>Welcome, <span id="username"></span> 👋</h3>
+      <p><b>Email:</b> <span id="useremail"></span></p>
+
+      <a href="courses.html" class="button" style="margin-top:15px; display:inline-block;">
+        View Courses
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="dashboard-grid">
+
+  <div class="dash-card">
+    <h4>📚 Enrolled Courses</h4>
+    <p id="courseCount">0</p>
+  </div>
+
+  <div class="dash-card">
+    <h4>🎯 Learning Status</h4>
+    <p>Active</p>
+  </div>
+
+  <div class="dash-card">
+    <h4>🏆 Progress</h4>
+    <p>Beginner</p>
+  </div>
+
+</div>
+
+<a class="btn-primary" href="courses.html">Browse Courses</a>
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
